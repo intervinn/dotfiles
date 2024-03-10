@@ -6,10 +6,8 @@
     min-height: 20px;
 }
 
-@define-color bg	#1A1D23;
-@define-color white	#9B9FA9;
-@define-color textactive #ADB0BB;
-
+@define-color bg	#282828;
+@define-color white	#ebdbb2;
 
 window#waybar {
     background: transparent;
@@ -22,19 +20,15 @@ window#waybar.hidden {
 #workspaces {
     margin-right: 8px;
     border-radius: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
     transition: none;
     background: @bg;
 }
 
 #workspaces button {
     transition: none;
-    color: @white;
+    color: #7c818c;
     background: transparent;
-    padding-left: 5px;
-    padding-right: 10px;
-    margin-right: 5px;
+    padding: 5px;
     font-size: 18px;
 }
 
@@ -58,9 +52,9 @@ window#waybar.hidden {
 }
 
 #language {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 10px;
+    padding-left: 16px;
+    padding-right: 8px;
+    border-radius: 10px 0px 0px 10px;
     transition: none;
     color: @white;
     background: @bg;
